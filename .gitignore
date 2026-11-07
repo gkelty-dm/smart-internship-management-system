@@ -1,0 +1,84 @@
+
+# ==========================================
+# LARAVEL ENVIRONMENT AND SECRETS
+# ==========================================
+.env
+.env.*
+!.env.example
+/auth.json
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# ==========================================
+# DEPENDENCIES
+# ==========================================
+/vendor/
+/node_modules/
+
+# ==========================================
+# LARAVEL CACHE AND RUNTIME
+# ==========================================
+/bootstrap/cache/*.php
+/storage/framework/*
+/storage/logs/*
+/storage/pail
+
+# ==========================================
+# DATABASE
+# ==========================================
+/database/*.sqlite
+/database/*.sqlite3
+/database/*.db
+*.sql
+
+# ==========================================
+# PERSONAL DATA AND STUDENT PHOTOS
+# ==========================================
+/storage/app/public/*
+/public/storage_lama/
+/public/uploads/logbook/
+
+# ==========================================
+# PYTHON AI ENVIRONMENT
+# ==========================================
+/SIMPKL_AI/venv/
+/SIMPKL_AI/.venv/
+/SIMPKL_AI/env/
+/SIMPKL_AI/uploads/
+/SIMPKL_AI/__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# ==========================================
+# NESTED GIT REPOSITORY
+# ==========================================
+/SIMPKL_AI/.git/
+
+# ==========================================
+# LARAVEL GENERATED FILES
+# ==========================================
+/public/hot
+/public/build
+/public/storage
+/storage/*.key
+
+# ==========================================
+# IDE AND OPERATING SYSTEM
+# ==========================================
+/.fleet/
+/.idea/
+/.nova/
+/.phpunit.cache/
+/.vscode/
+/.zed/
+.DS_Store
+Thumbs.db
+*.log
+.phpunit.result.cache
+.phpactor.json
